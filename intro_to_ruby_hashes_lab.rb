@@ -14,7 +14,7 @@ def monopoly_with_second_tier
   monopoly = base_hash
   monopoly = {
     :railroads=>{
-      :pieces=>4
+    :pieces=>4
     }
   }
 end
@@ -27,30 +27,9 @@ def monopoly_with_third_tier
   monopoly = monopoly_with_second_tier
   monopoly = {
     :railroads=>{
-      :pieces=>4,
-      :rent_in_dollars=>{
-        :one_piece_owned=>25,
-<<<<<<< HEAD
-        :two_pieces_owned=>50,
-        :three_pieces_owned=>100,
-        :four_pieces_owned=>200
-      },
-      :names=>{
-        :reading_railroad=>{},
-        :pennsylvania_railroad=>{},
-        :b_and_o_railroad=>{},
-        :shortline_railroad=>{}
-=======
-        :key2=>{},
-        :key3=>{},
-        :one_piece_owned=>25
-      },
-      :names=>{
-        :key1=>{},
-        :key2=>{},
-        :key3=>{},
-        :key4=>{}
->>>>>>> 0050b533010bf973e837519f02dd924753a74f9e
+    :pieces=>4,
+    :rent_in_dollars=>{
+    :one_piece_owned=>25,
       }
     }
   }
